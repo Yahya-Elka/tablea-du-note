@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Projet pour les points des etudiant</h1>
+    <main>
+        <div>
+            <div class="inp1">
+                <input id="nom" type="text" placeholder="Nom et Prenom">
+                <input id="niveau" type="text" placeholder="Niveau">
+            </div>
+            <div class="inp2">
+                <input id="matier" type="text" placeholder="Matier">
+                <input id="note" type="number" placeholder="La Note">
+            </div>
+            <div class="button">
+                <button onclick="creat()" id="entrer">Entrer</button>
+            </div>
+        </div>
+        <table >
+            <thead>
+                <tr>
+                    <th>Nom et Prenom</th>
+                    <th>Niveau</th>
+                    <th>Matier</th>
+                    <th>La Note</th>
+                    <th>Suprimer</th>
+                    <th>Mise a jour</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                
+            </tbody>
+        </table>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
